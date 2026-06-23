@@ -25,7 +25,7 @@
 | Solved | 0 |
 | Remaining | 450+ |
 | Completion | 0% |
-| Current Streak | 0 Days 🔥 |
+| Current Streak | 1 Days 🔥 |
 
 ---
 
@@ -43,11 +43,14 @@
 
 > Update this table every day after solving problems.
 
-| Date | Problems Solved | Topic | Difficulty | Link |
-|--------|----------------|--------|------------|------|
-| DD-MM-YYYY | Problem Name | Array | Easy | [Solution](#) |
-| DD-MM-YYYY | Problem Name | Binary Search | Medium | [Solution](#) |
-
+| Problems Solved | Topic | Difficulty |
+|----------------|--------|------------|
+| Count digits | Maths | Easy |
+| reverse Integer | Maths | Medium |
+| number_is_palindrome | Maths | Easy |
+| LCM_GCD | Maths | Easy |
+| Print all Divisors | Maths | Medium |
+| Armstrong Number | Maths | Easy |
 ---
 
 # 📚 Topic Wise Progress
@@ -57,13 +60,13 @@
 | Status | Problem |
 |---------|----------|
 | ⬜ | Prime Number |
-| ⬜ | GCD & LCM |
+| ✅ | GCD & LCM |
 | ⬜ | Armstrong Number |
-| ⬜ | Reverse Number |
+| ✅ | Reverse Number |
 | ⬜ | Sieve of Eratosthenes |
 | ⬜ | Fast Exponentiation |
 
-Progress: **0 / 40**
+Progress: **2 / 40**
 
 ---
 
@@ -204,7 +207,7 @@ public:
 
 | Achievement | Date |
 |------------|------|
-| Started A2Z Sheet | DD-MM-YYYY |
+| Started A2Z Sheet | 23-06-2026 |
 | First 50 Problems | |
 | First 100 Problems | |
 | First 200 Problems | |
