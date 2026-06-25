@@ -37,21 +37,6 @@
 | 🟡 Medium | 200 | 0 | 200 |
 | 🔴 Hard | 70 | 0 | 70 |
 
----
-
-# 📅 Daily Progress Tracker
-
-> Update this table every day after solving problems.
-
-| Problems Solved | Topic | Difficulty |
-|----------------|--------|------------|
-| Count digits | Maths | Easy |
-| reverse Integer | Maths | Medium |
-| number_is_palindrome | Maths | Easy |
-| LCM_GCD | Maths | Easy |
-| Print all Divisors | Maths | Medium |
-| Armstrong Number | Maths | Easy |
----
 
 # 📚 Topic Wise Progress
 
