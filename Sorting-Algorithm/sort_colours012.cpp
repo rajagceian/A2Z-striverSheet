@@ -1,6 +1,8 @@
 //Link => https://leetcode.com/problems/sort-colors/
 
 //====== Approach - 1 : Counting Method : T.C = O(n) and S.C = O(1)===
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
