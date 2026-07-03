@@ -1,5 +1,6 @@
 //Link => https://leetcode.com/problems/count-of-smaller-numbers-after-self/
-// ============ T.C = O(nlogn) and S.C = O(n) ============
+
+// ============Approach - 1(Merge Sort) === T.C = O(nlogn) and S.C = O(n) ============
 #include <bits/stdc++.h>
 using namespace std;
 class Solution {
@@ -42,5 +43,24 @@ public:
         vector <int> cnt(n);
         mergeSort(arr,0,n-1,cnt);
         return cnt;
+    }
+};
+
+//==================== Approach - 2 === Binary Search =================
+//=================== T.C = O(nlogn) and S.C = O(n) ================
+class Solution1 {
+public:
+    vector<int> countSmaller(vector<int>& nums) {
+        int n = nums.size();
+        vector <int> sorted;
+        vector <int> count;
+        for(int i=n-1;i>=0;i--){
+            auto pos = lower_bound(sorted.begin(),sorted.end(),nums[i]); // lower_bound => first element's place which is equal to or greater than target element(Here, nums[i])
+            int cnt = pos - sorted.begin();
+            count.push_back(cnt);
+            sorted.insert(pos,nums[i]);
+        }
+        reverse(count.begin(),count.end());
+        return count;
     }
 };
