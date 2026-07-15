@@ -1,5 +1,5 @@
 //Link => https://leetcode.com/problems/3sum
-//------- T.C = O(n^2) and S.C = (n^2) -----------------
+//------- T.C = O(n^2) and S.C = (1) -----------------
 #include <bits/stdc++.h>
 using namespace std;
 class Solution {
