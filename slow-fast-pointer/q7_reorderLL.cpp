@@ -11,6 +11,7 @@ struct ListNode {
      ListNode(int x, ListNode *next) : val(x), next(next) {}
  };
 
+ //----------- T.C = O(n) and S.C = O(1) -----------
 class Solution {
 public:
     ListNode* reverse(ListNode *head){
