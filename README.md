@@ -22,7 +22,7 @@
 | Metric | Value |
 |----------|----------|
 | Total Problems | 450+ |
-| Solved | 0 |
+| Solved | 40 |
 | Remaining | 450+ |
 | Completion | 0% |
 | Current Streak | 1 Days 🔥 |
